@@ -9,6 +9,8 @@ class Anagram
     new_array=[]
     words_array.each do |words| 
    if  words.split("").sort == @word.split("").sort 
-     new_array
+     new_array << words_array 
+   end 
+ end 
     
 end 
