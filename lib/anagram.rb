@@ -12,5 +12,7 @@ class Anagram
      new_array << words_array 
    end 
  end 
+ new_array
+ end 
     
 end 
