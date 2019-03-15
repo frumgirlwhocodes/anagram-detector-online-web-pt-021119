@@ -6,5 +6,6 @@ class Anagram
     @word=word 
   end 
   def match(word_array)
-    word_array.collect do |w| 
+    new_array=[]
+    data=word_array.each{ |w| w.split("")}
 end 
