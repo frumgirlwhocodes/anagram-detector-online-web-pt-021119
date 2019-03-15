@@ -5,7 +5,8 @@ class Anagram
   def initialize(word)
     @word=word 
   end 
-  def match(word_array)
+  def match(words_array)
     new_array=[]
-    data=word_array.each{ |w| w.split("")}
+    data=words_array.each{ |words| words.split("")}
+    data.each { |w|
 end 
