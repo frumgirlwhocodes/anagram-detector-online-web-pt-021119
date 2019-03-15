@@ -6,5 +6,5 @@ class Anagram
     @word=word 
   end 
   def match(word_array)
-    
+    word_array.collect do |w| 
 end 
